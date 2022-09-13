@@ -2,11 +2,7 @@
   <q-page class="column items-center justify-evenly">
     <q-btn @click="store.pick">Generate</q-btn>
     <q-separator></q-separator>
-    <q-img
-      :src="currentImage"
-      fit="contain"
-      style="max-width: 150px; height: 200px"
-    />
+    <q-img :src="currentImage" style="max-width: 150px; height: 200px" />
   </q-page>
 </template>
 
